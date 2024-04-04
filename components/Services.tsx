@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 const Services = () => {
   return (
     <div className='w-[100vw]  flex flex-col  py-[30px] bg-[#f8f8ff] '> 
@@ -11,8 +12,16 @@ const Services = () => {
                    <div className='flex text-right justify-end text-[#b3acac] font-bold pr-1'>
                        Automated
                    </div>
-                  <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                  <div  className='flex align-middle justify-center'>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                       <Image
+                           src='/phone.png'
+                           alt='agent'
+                           height={20}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                  </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                      Buy Airtime
@@ -23,7 +32,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/msg.png'
+                           alt='agent'
+                           height={20}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                      Bulk SMS
@@ -36,7 +53,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/wifi.png'
+                           alt='agent'
+                           height={20}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                      Buy Data
@@ -47,7 +72,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/idea.png'
+                           alt='agent'
+                           height={10}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                      Buy Electricity
@@ -63,7 +96,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/scratch.png'
+                           alt='agent'
+                           height={20}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                      Scratch Cards
@@ -74,7 +115,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/wallet.png'
+                           alt='agent'
+                           height={20}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                       Wallet Summary
@@ -87,7 +136,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/code.png'
+                           alt='agent'
+                           height={30}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold '>
                      Dev API
@@ -98,7 +155,15 @@ const Services = () => {
                        Automated
                    </div>
                   <div className='flex align-middle justify-center'>
-                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>img</div>
+                     <div className='flex w-[4rem] h-[4rem] text-center justify-center align-middle bg-white shadow-lg shadow-[#b3acac] rounded-[50px] '>
+                     <Image
+                           src='/printer.png'
+                           alt='agent'
+                           height={30}
+                           width={30}
+                           className="flex align-middle"
+                       />
+                     </div>
                   </div>
                   <p className='flex justify-center font-semibold  align-middle text-center text-[14px]'>
                      Recharge Card Printing

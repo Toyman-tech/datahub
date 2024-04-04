@@ -16,14 +16,14 @@ const Hero = () => {
     <div className='text-white relative flex flex-col gap-[35px] px-5 align-bottom justify-center  pt-[25vh]'>
     <div className='text-white flex  align-bottom justify-center  font-semibold text-1xl '>
        welcome to
-        <span className='text-[20px] md:text-[25px]   leading-10 pl-5 font-bold  '>
+        <span className='text-[17px] md:text-[25px]   leading-10 pl-5 font-bold  '>
             Toymantech Data hub
         </span>
     </div>
     <div className='flex align-middle justify-center text-center text-[19px] '>
         Welcome to a technology platform that provides instant and smooth services at the best possible price without compromisung quality.
     </div>
-    <div className=' w-full flex flex-row justify-center align-middle gap-[5rem] mt-3'>
+    <div className='  flex flex-row justify-center align-middle gap-5 md:gap-[5rem] mt-3 mx-5'>
         <div className=' hover:text-cyan-900 bg-[#9ca3af] rounded-md px-[2.5rem] py-[.5rem] text-[20px] text-[#180909bd]  font-bold'>
            <Link href='#'>Login</Link> 
         </div>
